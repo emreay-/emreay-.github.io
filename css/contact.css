@@ -1,0 +1,24 @@
+h1#contact-mail {
+    font-family: 'Space Mono', monospace;
+    font-size: 1,5em;
+}
+
+div.contact-table {
+	display: table;   /* Allow the centering to work */
+	margin: 0;
+    align-items: baseline;
+    position: absolute;
+    top: 40%;
+}
+
+ul#contact-list {
+	min-width: 4em;
+    list-style-type: none;
+    list-style-position:inside;
+    margin:0;
+    padding:0;
+	}
+	ul#contact-list li {
+		display: inline-block;
+        padding: 0;
+	}
