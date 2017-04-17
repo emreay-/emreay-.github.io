@@ -17,6 +17,9 @@ div.frame {
     overflow: inherit;
     border-bottom: 1px solid silver;
 }
+    div.frame#last-frame {
+        border: 0px;
+    }
 
 div.title {
     width: %50;
@@ -46,7 +49,7 @@ article.info {
     text-align: justify;
     min-height: 150px;
     font-size: 1em;
-    font-weight: 400;    
+    font-weight: 400;
 }
 
 div#projects {
@@ -61,6 +64,11 @@ div#other {
     overflow: inherit;
 }
 div#music {
+    background-color: rgba(200,200,200,0.3);
+    min-height: inherit;
+    overflow: inherit;
+}
+div#guitar {
     background-color: rgba(200,200,200,0.3);
     min-height: inherit;
     overflow: inherit;
