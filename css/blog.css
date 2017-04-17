@@ -1,0 +1,7 @@
+div#blog {
+    position: absolute;;
+    left: 30%;
+    top: 30%;
+    font-size: 2em;
+    text-align: left;
+}
